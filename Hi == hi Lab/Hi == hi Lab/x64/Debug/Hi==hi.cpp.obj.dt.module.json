@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Hi == hi Lab\\x64\\Debug\\Hi==hi.obj",
+            "outputs": [
+                "Hi == hi Lab\\x64\\Debug\\Hi==hi.cpp.obj.dt.module.json",
+                "Hi == hi Lab\\x64\\Debug\\Hi==hi.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
