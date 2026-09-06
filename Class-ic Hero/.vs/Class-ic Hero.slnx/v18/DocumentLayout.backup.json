@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Chris\\source\\repos\\Class-ic Hero\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB9F201-E0C9-4DFB-BE0C-1A5D9A3E8AF1}|Class-ic Hero\\Class-ic Hero.vcxproj|C:\\Users\\Chris\\source\\repos\\Class-ic Hero\\Class-ic Hero\\class-ichero.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4EB9F201-E0C9-4DFB-BE0C-1A5D9A3E8AF1}|Class-ic Hero\\Class-ic Hero.vcxproj|solutionrelative:Class-ic Hero\\class-ichero.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "class-ichero.cpp",
+              "DocumentMoniker": "C:\\Users\\Chris\\source\\repos\\Class-ic Hero\\Class-ic Hero\\class-ichero.cpp",
+              "RelativeDocumentMoniker": "Class-ic Hero\\class-ichero.cpp",
+              "ToolTip": "C:\\Users\\Chris\\source\\repos\\Class-ic Hero\\Class-ic Hero\\class-ichero.cpp",
+              "RelativeToolTip": "Class-ic Hero\\class-ichero.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-05T23:56:01.594Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

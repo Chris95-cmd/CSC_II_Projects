@@ -1,0 +1,3 @@
+﻿  class-ichero.cpp
+C:\Users\Chris\source\repos\Class-ic Hero\Class-ic Hero\class-ichero.cpp(65,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Class-ic Hero.vcxproj -> C:\Users\Chris\source\repos\Class-ic Hero\x64\Debug\Class-ic Hero.exe
