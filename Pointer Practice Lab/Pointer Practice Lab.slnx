@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Pointer Practice Lab/Pointer Practice Lab.vcxproj" Id="80eb2a4f-b283-4c32-bfa0-05b4c6d5bacb" />
+</Solution>
