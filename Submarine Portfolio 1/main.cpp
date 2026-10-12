@@ -8,6 +8,7 @@ using namespace std;
 class Item {
 private:
     string name;
+    string description;
     int value;
     bool isTreasure;
 public:
@@ -148,6 +149,9 @@ public:
     bool isSurfaceTile(int x, int y) {
         return grid[y][x].isSurface;
     }
+    bool hasItem(int x, int y) {
+        return grid[y][x].hasItem;
+    }
 
     void buildLevel() {
         for (int x = 0; x < width; ++x) {
@@ -162,16 +166,24 @@ public:
         grid[6][4].isWall = true; grid[6][4].symbol = '#';
 
         grid[2][3].hasItem = true;
-        grid[2][3].item = { "Gold Coin", 5, true };
+        grid[2][3].item = { "Heart of Atlantis", 20, true };
         grid[2][3].symbol = '*';
 
         grid[5][7].hasItem = true;
-        grid[5][7].item = { "Bronze Sword", 80, true };
+        grid[5][7].item = { "Atlantean Crystals", 80, true };
         grid[5][7].symbol = '*';
 
         grid[4][4].hasItem = true;
-        grid[4][4].item = { "Ancient Skeleton", 0, false };
+        grid[4][4].item = { "Trident of Neptune", 100, true };
         grid[4][4].symbol = '*';
+
+        grid[7][8].hasItem = true;
+        grid[7][8].item = { "Shepherd's Journal", 0, false };
+        grid[7][8].symbol = '*';
+
+        grid[5][3].hasItem = true;
+        grid[5][3].item = { "Atlantean Helmet", 0, false };
+        grid[5][3].symbol = '*';
     }
 
     void printView(int xSub, int ySub) {
@@ -309,6 +321,11 @@ int main() {
 
                 if (map.isWallTile(targetX, targetY)) {
                     cout << "You can't move into a wall! Try again!" << endl;
+                    continue;
+                }
+
+                if (map.hasItem(targetX, targetY)) {
+                    cout << "You have bumped into something that may be worth checking out!" << endl;
                     continue;
                 }
 
