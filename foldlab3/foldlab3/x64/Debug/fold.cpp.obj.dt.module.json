@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "foldlab3\\x64\\Debug\\fold.obj",
+            "outputs": [
+                "foldlab3\\x64\\Debug\\fold.cpp.obj.dt.module.json",
+                "foldlab3\\x64\\Debug\\fold.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
