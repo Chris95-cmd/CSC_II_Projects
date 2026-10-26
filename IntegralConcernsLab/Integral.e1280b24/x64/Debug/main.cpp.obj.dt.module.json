@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Integral.e1280b24\\x64\\Debug\\main.obj",
+            "outputs": [
+                "Integral.e1280b24\\x64\\Debug\\main.cpp.obj.dt.module.json",
+                "Integral.e1280b24\\x64\\Debug\\main.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

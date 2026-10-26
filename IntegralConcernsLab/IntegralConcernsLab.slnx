@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="IntegralConcernsLab.vcxproj" Id="e1280b24-64ff-4c5b-998a-58a77a730c3a" />
+</Solution>
