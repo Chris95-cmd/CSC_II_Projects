@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ShapesLab.vcxproj" Id="fa038ac9-b9c6-4e74-9416-bf6b400ba260" />
+</Solution>
